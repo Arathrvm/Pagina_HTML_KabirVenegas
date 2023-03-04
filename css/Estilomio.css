@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0px;
+padding: 0}
+
+#contenedor #contenedor_encabezado {
+    height: 284px;
+    color: rgba(0,0,0,1.00);
+    background-color: rgba(128,111,217,1.00);
+    background-image: url(../imagenes/fondo_header.jpg);
+}
+#contenedor #contenedor_encabezado #header {
+    width: 1004px;
+    height: 285px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenedor_encabezado #header #logo {
+    width: 238px;
+    height: 46px;
+    padding-top: 37px;
+    padding-left: 51px;
+}
+#header #slogan img {
+    float: right;
+    padding-right: 65px;
+
+}
+#contenedor #menu_fondo {
+    height: 33px;
+    background-color: #00AC69;
+}
+#menu_fondo #menu a {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    color: #CFCF84;
+    text-decoration: none;
+}
+#menu_fondo #menu a:hover  {
+    color: #FFFFFF;
+}
+
+#Contenedor_cuerpo {
+    background-image: url(../imagenes/fondo_cuerpo.jpg);
+    background-repeat: repeat;
+}
+#Contenedor_cuerpo #cuerpo {
+    height: 458px;
+    width: 1004px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Contenedor_cuerpo #cuerpo #Columna_izq {
+    width: 254px;
+    float: left;
+    padding-top: 34px;
+    padding-left: 36px;
+}
+.h1   {
+    color: #020202;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+}
+.textoazul {
+    color: #005b7f;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.textoNegro {
+    color: #060606;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+}
+#Columna_izq header ul {
+    list-style-type: none;
+    margin-top: 14px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+ul li a {
+    text-decoration: none;
+    color: #2D2D2D;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    background-image: url(../imagenes/bullet_off.png);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    background-position: 0px 3px;
+}
+ul li a:hover  {
+    text-decoration: none;
+    color: #c46709;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    background-image: url(../imagenes/bullet_over.png);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    background-position: 0px 3px;
+}
+header ul li {
+    border-bottom: 1px solid #C6D09D;
+    height: 22px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+
+
+
+
+
+#Contenedor_cuerpo #cuerpo #Columna_cent {
+    width: 419px;
+    float: left;
+    padding-top: 34px;
+    padding-left: 36px;
+}
+#cuerpo #Columna_cent ul {
+    text-decoration: none;
+    margin-top: 14px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+ul li a {
+    background-image: url(../imagenes/bullet_tri_off.png);
+}
+ul li a:hover  {
+    background-image: url(../imagenes/bullet_tri_over.png);
+}
+#Columna_cent ul li {
+    border-bottom: 1px dashed #C6D09D;
+    height: 22px;
+}
+
+
+
+#Contenedor_cuerpo #cuerpo #Columna_der {
+    width: 254px;
+    float: left;
+    padding-top: 34px;
+    padding-right: 0px;
+    padding-left: 2px;
+}
+#Columna_der p #textfield2 {
+    background-color: #f3efc0;
+    border-style: none;
+}
+#Columna_der p #textfield {
+    background-color: #f3efc0;
+    border-style: none;
+}
+#Columna_der p #textarea {
+    border-style: none;
+    background-color: #f3efc0;
+}
+
+
+
+.texto_verde   {
+    color: #618A41;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    padding-bottom: 0px;
+}
+.texto_naranja {
+    color: #C8962A;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    border-bottom-color: #BB9433;
+    /* [disabled]border-bottom-style: solid; */
+    /* [disabled]border-bottom-width: 0; */
+}
+#cuerpo #Columna_der p {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+.negrita {
+    color: #000000;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    /* [disabled]font-variant: normal; */
+    font-weight: bold;
+}
+
+
+
+
+#contenedor_foot {
+    background-color: #00AC69;
+}
+#contenedor_foot #foot {
+    width: 1004px;
+    height: 103px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenedor_foot #foot #menu_inferior {
+    width: 260px;
+    height: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 18px;
+}
+
+#contenedor_foot #foot p {
+}
+#contenedor_foot #foot #copyright {
+    width: 280px;
+    height: 23px;
+    margin-left: 451px;
+    margin-right: auto;
+    margin-top: 18px;
+    color: #EBEBEB;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+#contenedor_foot #foot #diseñado {
+    width: 280px;
+    height: 23px;
+    margin-left: 376px;
+    margin-right: auto;
+    color: #DDD374;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.blanco {
+    color: #D7D7D7;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.enlaces_inferiores {
+    color: #D9DD8A;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#foot .enlaces_inferiores a {
+    text-decoration: none;
+    color: #DDD376;
+}
+#foot .enlaces_inferiores a:hover  {
+    text-decoration: none;
+    color: #363636;
+    border-bottom: 2px solid #363636;
+}
+
+
+
+p {margin:0;
+padding:0;
+}
